@@ -1,0 +1,25 @@
+{
+  "name": "forex-trader-skill",
+  "description": "Diez skills de Claude para trading autónomo de Forex con MetaTrader 5: scanner, noticias, entrada, salida, Time Machine, sizing, riesgo, broker, alertas y journal.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jake Schincariol (adaptación Forex)",
+    "url": "https://opusjake.ai"
+  },
+  "homepage": "https://github.com/Jakeschincariol/day-trader-skill",
+  "repository": "https://github.com/Jakeschincariol/day-trader-skill",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "forex",
+    "metatrader-5",
+    "mt5",
+    "trading",
+    "autonomous-trading",
+    "opening-range-breakout",
+    "risk-management",
+    "demo-trading"
+  ],
+  "skills": "./"
+}

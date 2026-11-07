@@ -1,0 +1,100 @@
+{
+  "account": {
+    "budget": 1000.0,
+    "currency": "USD",
+    "leverage": 1000,
+    "starting_balance": 1000.0,
+    "mode": "demo",
+    "auto_execute": true
+  },
+  "mt5": {
+    "login": null,
+    "password": null,
+    "server": null,
+    "path": null,
+    "server_utc_offset": null,
+    "magic": 20261107,
+    "deviation_points": 20,
+    "timeout_ms": 60000,
+    "filling": null
+  },
+  "risk": {
+    "cash_buffer_pct": 10,
+    "max_margin_pct": 75,
+    "max_order_lots": 10.0,
+    "min_order_lots": 0.01,
+    "max_loss_per_trade_usd": 10.0,
+    "max_daily_loss_usd": 30.0,
+    "max_trades_per_day": 3,
+    "max_orders_per_day": 10,
+    "min_reward_risk": 1.0,
+    "require_stop": true,
+    "allow_short": true,
+    "allow_margin": true,
+    "blocked": [],
+    "no_entries_before": "02:30",
+    "no_entries_after": "11:30",
+    "flat_by": "16:55",
+    "max_spread_pips": null,
+    "pdt_guard": false
+  },
+  "strategy": {
+    "watchlist": [
+      "EURUSD",
+      "GBPUSD",
+      "USDJPY",
+      "USDCHF",
+      "USDCAD",
+      "AUDUSD",
+      "NZDUSD",
+      "EURGBP",
+      "EURJPY",
+      "GBPJPY",
+      "AUDJPY",
+      "EURAUD",
+      "EURNZD",
+      "GBPCHF"
+    ],
+    "min_daily_bars": 30,
+    "setup_min_score": 1,
+    "orb": {
+      "session": "london",
+      "or_minutes": 30,
+      "confirm": "close",
+      "interval": "M5"
+    },
+    "timemachine": {
+      "replays": 10000,
+      "seed": 19,
+      "window": 2,
+      "days": 60
+    },
+    "news": {
+      "hours": 24,
+      "avoid_high_impact_minutes": 0,
+      "currencies": null
+    },
+    "scan": {
+      "max_candidates": 6,
+      "daily_top": 20
+    }
+  },
+  "news": {
+    "feeds": [
+      "https://www.forexlive.com/feed/news",
+      "https://www.fxstreet.com/rss/news",
+      "https://www.dailyfx.com/feeds/market-news"
+    ],
+    "user_agent": "forex-trader-skill/1.0"
+  },
+  "alerts": {
+    "poll_seconds": 15,
+    "execute_on_stop": false
+  },
+  "journal": {
+    "starting_balance": 1000.0
+  },
+  "paths": {
+    "trader_dir": null
+  }
+}
