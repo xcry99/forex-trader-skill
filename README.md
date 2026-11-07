@@ -5,11 +5,11 @@ escanear pares, leer noticias, cronometrar la entrada, planificar la salida,
 repetir el trade 10.000 veces antes de arriesgar, calcular lotes, comprobar el
 riesgo, ejecutar sin confirmación por orden y llevar un journal de resultados.
 
-Es una adaptación completa de
-[day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) de
-Jake Schincariol: la misma idea, los mismos métodos y la misma disciplina de
-riesgo, pero con pares de divisas, pips, lotes, spread, margen y apalancamiento
-en lugar de acciones.
+El proyecto adapta a Forex el flujo de trading intradía de
+[day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) y se
+inspira también en [trader-skill](https://github.com/Jakeschincariol/trader-skill).
+Ambos proyectos son de Jake Schincariol. La adaptación trabaja con pares de
+divisas, pips, lotes, spread, margen y apalancamiento mediante MetaTrader 5.
 
 > **Experimento, no consejo financiero.** El pack está pensado para una cuenta
 > **demo** de 1.000 USD y apalancamiento 1:1000. El apalancamiento alto puede
@@ -464,10 +464,9 @@ código.
 
 ## Créditos y licencia
 
-Adaptación a Forex de
-[day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) de
-[Jake Schincariol](https://opusjake.ai), MIT. Esta versión conserva la lógica
-de scanner, noticias, entrada, salida, Time Machine, presupuesto, riesgo,
-broker y alertas, y la traduce a MetaTrader 5 y al mercado de divisas.
+Gracias a [Jake Schincariol](https://opusjake.ai) por los dos proyectos de referencia.
 
-MIT.
+- [day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) es la base del flujo intradía que se adaptó a Forex y MetaTrader 5.
+- [trader-skill](https://github.com/Jakeschincariol/trader-skill) es el proyecto original que también inspiró esta adaptación.
+
+El proyecto se distribuye bajo la [licencia MIT](LICENSE).

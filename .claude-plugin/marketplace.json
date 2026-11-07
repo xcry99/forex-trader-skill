@@ -1,10 +1,10 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "forex-trader-skill",
-  "description": "Adaptación Forex de day-trader-skill: trading autónomo con MetaTrader 5",
+  "description": "Trading autónomo de Forex con MetaTrader 5, inspirado en day-trader-skill y trader-skill",
   "owner": {
-    "name": "Jake Schincariol (adaptación Forex)",
-    "url": "https://opusjake.ai"
+    "name": "xcry99",
+    "url": "https://github.com/xcry99"
   },
   "plugins": [
     {
@@ -12,7 +12,7 @@
       "description": "Diez skills de Claude para operar Forex de forma autónoma con MetaTrader 5: scanner, noticias, entrada, salida, Time Machine, tamaño de posición, riesgo, broker, alertas y journal.",
       "source": "./",
       "category": "productivity",
-      "homepage": "https://github.com/Jakeschincariol/day-trader-skill"
+      "homepage": "https://github.com/xcry99/forex-trader-skill"
     }
   ]
 }
